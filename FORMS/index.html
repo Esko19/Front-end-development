@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Forms</title>
+</head>
+<body>
+    <form action="script.php" method="POST" enctype="multipart/form-data" name="demo_form" id="demo-form">
+        <label for="name">Name :</label>
+          <input type="text" id="name"><br><br>
+          <input type="Checkbox" name="question" value="Like" id="question">
+          <label for="question">I like HTML</label><br><br>
+          <input type="submit" name="" id=""><br><br>
+          <input type="number" name="quantity" min="1" max="5"><br><br>
+          <input type="color" name="favcolor" ><br><br>
+          <input type="range" name="points" min="0" max="10"><br><br>
+          <textarea name="description" id="description">Lorem ipsum sit dolor amet</textarea><br><br>
+          <button>Button način za submitovanje</button><br><br>
+          <select name="country" id="country">
+             <option value="Bosnia" selected="selected">Bosnia</option>
+             <option value="Serbia">Serbia</option>
+             <option value="Slovenia">Slovenia</option>
+         </select><br><br>
+         <fieldset>
+             <legend>Personal info</legend>
+             <label for="name">First name:</label><br>
+             <input type="text" name="name" id="name"><br>
+
+             <label for="surname">Last name:</label><br>
+             <input type="text" name="surname" id="surname"><br>
+         </fieldset>
+
+         <fieldset>
+             <legend>Contact</legend>
+             <label for="email">Email:</label><br>
+             <input type="text" name="email" id="email"><br>
+
+             <label for="phone">Phone:</label><br>
+             <input type="text" name="phone" id="phone"><br>
+    
+         </fieldset>
+
+         <input type="datetime-local" name="datetime-local" id="">
+         <input type="hidden" name="hidden" id=""><br><br>
+         <input type="search" name="search" id=""><br><br>
+         <label for="color">Color: </label>
+         <input type="text" name="color" id="color" placeholder="enter color..."><br>
+         <a href="mailto:office@example.com?subject=Title&body=Message">email link</a>
+
+    </form>
+    
+</body>
+</html>
